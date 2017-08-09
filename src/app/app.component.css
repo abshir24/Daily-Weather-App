@@ -1,0 +1,6 @@
+#borders li{
+    border-left:2px solid black;
+    display:inline-block;
+    list-style-type:none;
+    padding:5px;
+}

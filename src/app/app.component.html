@@ -1,0 +1,12 @@
+<h1 style="text-align:center">Daily Weather Forecast</h1>
+<ul style="list-style-type:none;padding:0 0 0 25%;">
+  <li ><a [routerLink]="['/seattle']">Seattle Wa</a></li>
+  <div id="borders" style="position:relative; left:10%;bottom:23px;" > 
+    <li><a [routerLink]="['/sanjose']" >San Jose CA</a></li>
+    <li><a [routerLink]="['/burbank']" >Burbank CA</a></li>
+    <li><a [routerLink]="['/dallas']">Dallas TX</a></li>
+    <li><a [routerLink]="['/dc']">Washington D.C</a></li>
+    <li><a [routerLink]="['/chicago']">Chicago IL</a></li>
+  </div>
+</ul>
+<router-outlet></router-outlet>
